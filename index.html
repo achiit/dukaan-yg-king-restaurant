@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YG King Restaurant, Betul | Fresh Chicken, Mutton &amp; Biryani on Itarsi Road</title>
+<meta name="description" content="YG King Restaurant at Tikrani Naka, Itarsi Road, Betul (M.P.), near Sanjivani School. Fresh chicken, mutton, biryani, rice and paneer. Open 11 AM to 11 PM. Call or WhatsApp to order.">
+<meta name="theme-color" content="#6E1423">
+<meta property="og:title" content="YG King Restaurant, Betul">
+<meta property="og:description" content="Fresh Chicken, Mutton &amp; Biryani, Full of Flavor. Tikrani Naka, Itarsi Road, Betul.">
+<meta property="og:type" content="restaurant">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236E1423'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23E2B64A' font-family='serif' font-weight='bold'%3EYG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F6EEDF;
+  --bg-2:#EBDDC1;
+  --ink:#1F1A17;
+  --maroon:#6E1423;
+  --maroon-dark:#4A0C17;
+  --gold:#C99A2E;
+  --gold-soft:#E6C471;
+  --muted:#5B4F46;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Outfit',system-ui,sans-serif;
+  --wa:#1E7F4F;
+  --radius:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);line-height:1.12;font-weight:700}
+.wrap{width:min(1180px,92%);margin-inline:auto}
+section{padding:clamp(64px,9vw,120px) 0;position:relative}
+.eyebrow{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--maroon);display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.eyebrow svg{width:22px;height:22px}
+h2{font-size:clamp(2rem,4.6vw,3.3rem);margin-bottom:18px}
+.lead{color:var(--muted);max-width:56ch}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 24px;border-radius:999px;font-weight:600;font-size:1rem;text-decoration:none;border:2px solid transparent;transition:transform .15s,background .15s;min-height:48px;cursor:pointer}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-call{border-color:var(--maroon);color:var(--maroon);background:transparent}
+.btn-call:hover{background:var(--maroon);color:var(--bg)}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-sm{padding:9px 16px;min-height:40px;font-size:.92rem}
+
+/* header */
+header.site{position:sticky;top:0;z-index:50;background:rgba(246,238,223,.96);border-bottom:1px solid rgba(110,20,35,.15)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:70px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-mark{width:42px;height:42px;border-radius:50%;background:var(--maroon);color:var(--gold-soft);display:grid;place-items:center;font-family:var(--serif);font-weight:800;font-size:1rem;border:2px solid var(--gold)}
+.logo-text{font-family:var(--serif);font-weight:800;font-size:1.2rem;line-height:1;color:var(--maroon)}
+.logo-text small{display:block;font-family:var(--sans);font-weight:500;font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.links{display:flex;gap:26px;list-style:none}
+.links a{text-decoration:none;font-weight:500;font-size:.98rem}
+.links a:hover{color:var(--maroon)}
+.head-cta{display:flex;gap:8px;align-items:center}
+.burger{display:none;background:none;border:2px solid var(--maroon);border-radius:10px;width:44px;height:44px;cursor:pointer;color:var(--maroon)}
+.burger svg{width:22px;height:22px;margin:auto}
+
+/* hero */
+.hero{padding-top:clamp(40px,6vw,80px);padding-bottom:0;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,70px);align-items:center}
+.hero h1{font-size:clamp(2.4rem,6vw,4.6rem);color:var(--maroon-dark);letter-spacing:-.01em}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero p.sub{font-size:1.15rem;color:var(--muted);margin:22px 0 10px;max-width:46ch}
+.proof{display:flex;align-items:center;gap:10px;font-weight:500;font-size:.98rem;margin-bottom:28px}
+.stars{display:inline-flex;gap:2px}
+.stars svg{width:18px;height:18px;fill:var(--gold)}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.hero-visual{position:relative;padding-bottom:40px}
+.plate{aspect-ratio:1/1.08;border-radius:46% 54% 42% 58% / 52% 44% 56% 48%;overflow:hidden;background:linear-gradient(145deg,var(--maroon),var(--maroon-dark));border:6px solid var(--gold);box-shadow:14px 14px 0 var(--maroon-dark)}
+.plate img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;left:-16px;bottom:8px;background:var(--ink);color:var(--gold-soft);padding:14px 20px;border-radius:14px;transform:rotate(-4deg);font-family:var(--serif);font-weight:700;max-width:220px;line-height:1.25;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.badge small{display:block;font-family:var(--sans);font-weight:400;color:#d8cdb8;font-size:.8rem;margin-top:3px}
+.motif-float{position:absolute;right:-10px;top:-14px;width:70px;height:70px;opacity:.9}
+
+/* trust strip, layout-breaking: overlaps hero and shifts left */
+.trust{background:var(--maroon);color:var(--bg);margin-top:-30px;padding:0;position:relative;z-index:2}
+.trust-in{display:grid;grid-template-columns:repeat(4,1fr);gap:0;transform:translateY(0)}
+.trust-item{padding:38px 22px;border-right:1px solid rgba(230,196,113,.28)}
+.trust-item:last-child{border-right:none}
+.trust-item b{display:block;font-family:var(--serif);font-size:clamp(1.9rem,4vw,2.8rem);color:var(--gold-soft);line-height:1}
+.trust-item span{font-size:.92rem;opacity:.9;display:block;margin-top:8px}
+
+/* menu cards */
+.menu-head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:48px}
+.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:22px}
+.card{background:#FBF5E8;border:1.5px solid rgba(110,20,35,.18);border-radius:var(--radius);padding:28px;display:flex;flex-direction:column;gap:12px;position:relative}
+.card:nth-child(1){grid-column:span 3}
+.card:nth-child(2){grid-column:span 3;background:var(--maroon);color:var(--bg);border-color:var(--maroon)}
+.card:nth-child(3){grid-column:span 2}
+.card:nth-child(4){grid-column:span 2}
+.card:nth-child(5){grid-column:span 2}
+.card:nth-child(6){grid-column:span 6;flex-direction:row;align-items:center;gap:28px;background:var(--bg-2)}
+.card:nth-child(6) .c-body{flex:1}
+.ic{width:52px;height:52px;border-radius:14px;background:var(--bg-2);display:grid;place-items:center;color:var(--maroon)}
+.card:nth-child(2) .ic{background:rgba(230,196,113,.18);color:var(--gold-soft)}
+.card:nth-child(6) .ic{background:var(--maroon);color:var(--gold-soft)}
+.ic svg{width:28px;height:28px}
+.card h3{font-size:1.45rem}
+.card p{font-size:.97rem;color:var(--muted)}
+.card:nth-child(2) p{color:#e9d9c8}
+.price{font-weight:600;font-size:1.02rem;color:var(--maroon)}
+.card:nth-child(2) .price{color:var(--gold-soft)}
+.card .btn{margin-top:auto;align-self:flex-start}
+.card:nth-child(2) .btn-wa{background:var(--gold);color:var(--ink)}
+
+/* about */
+.about{background:var(--bg-2)}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,6vw,90px);align-items:start}
+.avatar-box{position:relative}
+.avatar{width:min(260px,70%);aspect-ratio:1;border-radius:50%;background:var(--maroon);color:var(--gold-soft);display:grid;place-items:center;font-family:var(--serif);font-weight:800;font-size:5rem;border:6px solid var(--gold);box-shadow:10px 10px 0 var(--ink)}
+.avatar-box .who{margin-top:26px}
+.avatar-box .who b{font-family:var(--serif);font-size:1.4rem;display:block}
+.avatar-box .who span{color:var(--muted);font-size:.95rem}
+.about p{margin-bottom:16px;max-width:60ch}
+.diff{list-style:none;margin-top:26px;display:grid;gap:12px}
+.diff li{display:flex;gap:12px;align-items:flex-start;font-weight:500}
+.diff svg{width:22px;height:22px;flex:none;margin-top:3px;color:var(--maroon)}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:150px;gap:14px;margin-top:40px}
+.gal figure{border-radius:var(--radius);overflow:hidden;background:linear-gradient(145deg,var(--maroon),var(--maroon-dark));position:relative}
+.gal figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.gal figure:hover img{transform:scale(1.05)}
+.gal figcaption{position:absolute;left:12px;bottom:10px;background:rgba(31,26,23,.82);color:var(--gold-soft);font-size:.78rem;padding:4px 10px;border-radius:999px;font-weight:500}
+.g1{grid-column:span 3;grid-row:span 2}
+.g2{grid-column:span 3;grid-row:span 1}
+.g3{grid-column:span 2;grid-row:span 1}
+.g4{grid-column:span 1;grid-row:span 1}
+.g5{grid-column:span 2;grid-row:span 2}
+.g6{grid-column:span 2;grid-row:span 1}
+.g7{grid-column:span 2;grid-row:span 1}
+
+/* testimonials */
+.reviews{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:22px;margin-top:40px;align-items:start}
+.review{background:#FBF5E8;border-radius:var(--radius);padding:28px;border:1.5px solid rgba(110,20,35,.15)}
+.review:nth-child(2){margin-top:34px}
+.review:nth-child(3){margin-top:12px;background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.review p{margin:14px 0 18px;font-size:1.02rem}
+.review b{display:block}
+.review small{color:var(--muted)}
+.review:nth-child(3) small{color:#cdbfa8}
+
+/* pricing */
+.pricing{background:var(--maroon-dark);color:var(--bg)}
+.pricing h2{color:var(--gold-soft)}
+.pricing .eyebrow{color:var(--gold-soft)}
+.pricing .lead{color:#e2d3be}
+.price-cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,70px);margin-top:44px}
+.pl h3{font-size:1.3rem;color:var(--gold-soft);margin:30px 0 8px;padding-bottom:8px;border-bottom:2px solid var(--gold)}
+.pl h3:first-child{margin-top:0}
+.pl .row{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px dashed rgba(230,196,113,.3)}
+.pl .row span:first-child{font-weight:500}
+.pl .row span:last-child{color:var(--gold-soft);font-weight:600;white-space:nowrap}
+.pl .row small{display:block;font-weight:400;color:#cbb99f;font-size:.8rem}
+.note{margin-top:34px;font-size:.92rem;color:#d4c4ab;max-width:70ch}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,60px);margin-top:40px}
+.map{border-radius:var(--radius);overflow:hidden;border:4px solid var(--maroon);min-height:380px;background:var(--bg-2)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+.info h3{font-size:1.2rem;margin:0 0 10px}
+.hours{display:grid;grid-template-columns:1fr 1fr;gap:6px 20px;margin-bottom:28px;max-width:360px}
+.hours span:nth-child(even){font-weight:600;text-align:right}
+.methods{display:grid;gap:12px}
+.methods a.m{display:flex;align-items:center;gap:14px;text-decoration:none;background:#FBF5E8;padding:14px 18px;border-radius:14px;border:1.5px solid rgba(110,20,35,.18);font-weight:500}
+.methods a.m:hover{border-color:var(--maroon)}
+.methods a.m svg{width:24px;height:24px;color:var(--maroon);flex:none}
+.methods a.m small{display:block;color:var(--muted);font-weight:400;font-size:.82rem}
+address{font-style:normal;margin:0 0 24px}
+
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:70px 0 110px}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.2fr;gap:40px}
+footer h4{font-family:var(--serif);color:var(--gold-soft);font-size:1.15rem;margin-bottom:12px}
+footer p,footer li{color:#cfc3b0;font-size:.95rem}
+footer ul{list-style:none;display:grid;gap:8px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--gold-soft)}
+.foot-wa{display:flex;width:100%;justify-content:center;font-size:1.15rem;padding:18px 24px;margin-top:6px}
+.built{margin-top:48px;padding-top:22px;border-top:1px solid rgba(230,196,113,.2);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.85rem;color:#a99d8a}
+
+/* sticky bar */
+.bar{display:none}
+
+/* responsive */
+@media (max-width:1080px){
+  .links{gap:18px}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .card:nth-child(n){grid-column:span 1}
+  .card:nth-child(6){grid-column:span 2}
+  .reviews{grid-template-columns:1fr 1fr}
+  .review:nth-child(3){grid-column:span 2;margin-top:0}
+}
+@media (max-width:820px){
+  .links{display:none;position:absolute;top:70px;left:0;right:0;background:var(--bg);flex-direction:column;gap:0;padding:8px 4%;border-bottom:2px solid var(--maroon)}
+  .links.open{display:flex}
+  .links a{display:block;padding:14px 0;border-bottom:1px solid rgba(110,20,35,.12)}
+  .burger{display:grid}
+  .head-cta .btn{display:none}
+  .hero-grid,.about-grid,.contact-grid,.price-cols,.foot-grid{grid-template-columns:1fr}
+  .hero-visual{max-width:440px;margin-inline:auto;width:100%}
+  .trust-in{grid-template-columns:1fr 1fr}
+  .trust-item:nth-child(2){border-right:none}
+  .trust-item:nth-child(-n+2){border-bottom:1px solid rgba(230,196,113,.28)}
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .gal figure{grid-column:span 1!important;grid-row:span 1!important}
+  .g1{grid-column:span 2!important;grid-row:span 2!important}
+  .card:nth-child(6){flex-direction:column;align-items:flex-start}
+  .bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:2px solid var(--maroon);padding:8px;gap:8px;padding-bottom:max(8px,env(safe-area-inset-bottom))}
+  .bar .btn{min-height:50px}
+  body{padding-bottom:0}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .cards{grid-template-columns:1fr}
+  .card:nth-child(n){grid-column:span 1}
+  .reviews{grid-template-columns:1fr}
+  .review:nth-child(n){grid-column:span 1;margin-top:0}
+  .badge{left:0}
+  .logo-text small{display:none}
+  .hours{max-width:100%}
+  .cta-row .btn{flex:1 1 100%}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="motif" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M24 3 L29 15 L42 12 L34 23 L45 31 L32 33 L31 46 L24 36 L17 46 L16 33 L3 31 L14 23 L6 12 L19 15 Z"/>
+        <circle cx="24" cy="24" r="5" fill="currentColor"/>
+      </g>
+    </symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.200zm4.500-6.100c-.2-.1-1.500-.7-1.700-.8-.2-.1-.4-.1-.6.100l-.8 1c-.1.200-.3.200-.5.100a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.200-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.100-.7.300-.3.300-1 1-1 2.400s1 2.800 1.200 3c.1.200 2 3.100 4.900 4.300 1.800.8 2.500.8 3.400.7.500-.1 1.500-.6 1.700-1.200.2-.6.200-1.100.1-1.200-.1-.1-.3-.2-.6-.3z"/></symbol>
+    <symbol id="i-call" viewBox="0 0 24 24"><path fill="currentColor" d="M6.600 10.800a15 15 0 0 0 6.600 6.600l2.200-2.200a1 1 0 0 1 1-.2c1.100.4 2.300.6 3.600.6a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.500a1 1 0 0 1 1 1c0 1.300.2 2.500.6 3.600a1 1 0 0 1-.2 1z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.200 7 13 7 13s7-7.800 7-13a7 7 0 0 0-7-7zm0 9.500A2.500 2.500 0 1 1 12 6.500a2.500 2.500 0 0 1 0 5z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.200L4.500 7v.1L12 12.300 19.500 7.100V7z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round" stroke-linejoin="round" d="M4 12.500l5 5L20 6.500"/></symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="YG King Restaurant home">
+      <span class="logo-mark">YG</span>
+      <span class="logo-text">YG KING<small>Restaurant</small></span>
+    </a>
+    <ul class="links" id="links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="head-cta">
+      <a class="btn btn-call btn-sm" href="tel:+919522786111"><svg><use href="#i-call"/></svg>Call</a>
+      <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%20Restaurant%2C%20I%20found%20your%20website.%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.500" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><svg><use href="#motif"/></svg>Itarsi Road, Betul</div>
+      <h1>Fresh chicken, rich mutton and hot biryani, <em>cooked the desi way.</em></h1>
+      <p class="sub">Walk in near Sanjivani School for dine-in, or call and we will pack it fresh for you.</p>
+      <div class="proof">
+        <span class="stars" aria-label="5 star rating"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <span>Loved by Betul families for 3 to 5 years</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20food.%20Please%20share%20today%27s%20menu." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order on WhatsApp</a>
+        <a class="btn btn-call" href="tel:+919522786111"><svg><use href="#i-call"/></svg>Call 95227 86111</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg class="motif-float" style="color:var(--gold)"><use href="#motif"/></svg>
+      <div class="plate"><img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800&auto=format&fit=crop" alt="Rich chicken curry served hot at YG King Restaurant" onerror="this.remove()"></div>
+      <div class="badge">Chicken. Mutton. Biryani.<small>Dine-in and takeaway, 11 AM to 11 PM</small></div>
+    </div>
+  </div>
+</section>
+
+<div class="trust" aria-label="Quick facts">
+  <div class="wrap trust-in">
+    <div class="trust-item"><b>3-5 yrs</b><span>Serving Itarsi Road, Betul</span></div>
+    <div class="trust-item"><b>20+</b><span>Chicken, mutton, rice and paneer dishes</span></div>
+    <div class="trust-item"><b>12 hrs</b><span>Open every day, 11 AM to 11 PM</span></div>
+    <div class="trust-item"><b>Half / Full</b><span>Plates for one person or the whole family</span></div>
+  </div>
+</div>
+
+<section id="menu">
+  <div class="wrap">
+    <div class="menu-head">
+      <div>
+        <div class="eyebrow"><svg><use href="#motif"/></svg>Our Menu</div>
+        <h2>What the kitchen is known for</h2>
+        <p class="lead">Every gravy is made fresh on the day. Tap the button on any card to ask for that dish on WhatsApp.</p>
+      </div>
+    </div>
+    <div class="cards">
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18a0 0 0 0 1 0 0 9 7 0 0 1-18 0z"/><path d="M8 5c0 1.500 1.500 1.500 1.500 3M12 4c0 1.500 1.500 1.500 1.500 3M16 5c0 1.500 1.500 1.500 1.500 3"/></svg></div>
+        <h3>Chicken Curries</h3>
+        <p>Curry, Korma, Handi, Lapeta, Masala, Bhuna, Kadahi, 2 Pyaza and Chicken Special. Ten gravies, each with its own masala.</p>
+        <div class="price">Full ₹200 to ₹300 &middot; Half ₹120 to ₹160</div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20a%20chicken%20curry.%20Which%20gravies%20are%20available%20today%3F" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order Chicken</a>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 3.500 5 6 5 9a5 5 0 0 1-10 0c0-3 2-5.500 5-9z"/><path d="M12 15a2 2 0 0 0 2-2"/></svg></div>
+        <h3>Butter Chicken</h3>
+        <p>Creamy, buttery and mildly sweet. The plate that tables order again and again, best with butter naan or jeera rice.</p>
+        <div class="price">Full ₹400 &middot; Half ₹220</div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20would%20like%20to%20order%20Butter%20Chicken.%20Please%20confirm%20the%20time." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order Butter Chicken</a>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17c0-5 4-9 9-9h3a4 4 0 0 1 0 8h-1l-3 3H8z"/><circle cx="15.500" cy="12" r=".8" fill="currentColor"/></svg></div>
+        <h3>Mutton Specialities</h3>
+        <p>Curry, Bhuna, Lapeta and Masala, slow cooked until the meat falls off the bone. Keema options also available.</p>
+        <div class="price">Full ₹340 to ₹410 &middot; Half ₹180 to ₹210</div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20mutton.%20Please%20tell%20me%20what%20is%20ready%20today." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order Mutton</a>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h18c0 4-4 7-9 7s-9-3-9-7z"/><path d="M6 14c0-3 2.500-5 6-5s6 2 6 5"/><path d="M12 5v2"/></svg></div>
+        <h3>Biryani &amp; Rice</h3>
+        <p>Fragrant biryani plus Jeera Rice, Sada Rice and a Quarter Rice plate for a light meal.</p>
+        <div class="price">Quarter ₹50 &middot; Half ₹80 to ₹90 &middot; Full ₹160 to ₹180</div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20biryani%20and%20rice.%20Please%20share%20the%20options." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order Biryani</a>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1.500"/><rect x="13" y="4" width="7" height="7" rx="1.500"/><rect x="4" y="13" width="7" height="7" rx="1.500"/><rect x="13" y="13" width="7" height="7" rx="1.500"/></svg></div>
+        <h3>Paneer Dishes</h3>
+        <p>Matar Paneer and Paneer Masala in thick, spiced gravy. A proper vegetarian main course.</p>
+        <div class="price">Matar Paneer ₹250 &middot; Paneer Masala ₹270 (full)</div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20would%20like%20to%20order%20paneer.%20Is%20Matar%20Paneer%20or%20Paneer%20Masala%20available%3F" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order Paneer</a>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M7 6l2 3M17 6l-2 3"/><path d="M5 21c0-6 3-10 7-10s7 4 7 10z"/></svg></div>
+        <div class="c-body">
+          <h3>Tandoor &amp; Starters</h3>
+          <p>Tandoori chicken, chilli chicken, chicken 65, chicken lollipop and fish roast. Ask for today's availability and rate.</p>
+          <div class="price">Rates on request</div>
+        </div>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20please%20share%20the%20rate%20for%20tandoori%20chicken%2C%20chilli%20chicken%2C%20chicken%2065%20and%20lollipop." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Ask for Rates</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="avatar-box">
+      <div class="avatar" aria-hidden="true">VE</div>
+      <div class="who"><b>Vishal Evane</b><span>Owner, YG King Restaurant</span></div>
+    </div>
+    <div class="about">
+      <div class="eyebrow"><svg><use href="#motif"/></svg>About Us</div>
+      <h2>A family kitchen that grew into a roadside favourite</h2>
+      <p>I grew up watching my father cook for big family gatherings, and he always said that good gravy cannot be hurried. Around 2021 I took that lesson and opened YG King on Itarsi Road, right beside Sanjivani School.</p>
+      <p>We started with a few chicken dishes and a small group of regulars. Over the years people kept asking for mutton, then biryani, then paneer for the vegetarians in the family, so the menu grew one request at a time.</p>
+      <p>Today you will find students' parents, travellers on the highway and neighbours who walk in every week. If you eat here once, I hope you will come back with your family.</p>
+      <ul class="diff">
+        <li><svg><use href="#i-check"/></svg>Fresh chicken and mutton, bought and cooked the same day</li>
+        <li><svg><use href="#i-check"/></svg>Half and full plates, so you pay only for what you eat</li>
+        <li><svg><use href="#i-check"/></svg>Dine-in seating with an open kitchen you can see</li>
+        <li><svg><use href="#i-check"/></svg>Easy to find: Tikrani Naka, beside Sanjivani School</li>
+        <li><svg><use href="#i-check"/></svg>Order by call or WhatsApp, ready when you arrive</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#motif"/></svg>Gallery</div>
+    <h2>From our kitchen to your table</h2>
+    <p class="lead">A look at the food and the place. Come and see it in person.</p>
+    <div class="gal">
+      <figure class="g1"><img loading="lazy" src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800&auto=format&fit=crop" alt="Chicken curry in a serving bowl" onerror="this.remove()"><figcaption>Chicken curry</figcaption></figure>
+      <figure class="g2"><img loading="lazy" src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&auto=format&fit=crop" alt="Plate of biryani" onerror="this.remove()"><figcaption>Biryani</figcaption></figure>
+      <figure class="g3"><img loading="lazy" src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&auto=format&fit=crop" alt="Butter chicken with naan" onerror="this.remove()"><figcaption>Butter chicken</figcaption></figure>
+      <figure class="g4"><img loading="lazy" src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop" alt="Spiced Indian dish" onerror="this.remove()"></figure>
+      <figure class="g5"><img loading="lazy" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop" alt="Fragrant rice with spices" onerror="this.remove()"><figcaption>Rice</figcaption></figure>
+      <figure class="g6"><img loading="lazy" src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&auto=format&fit=crop" alt="Mutton biryani in a handi" onerror="this.remove()"><figcaption>Mutton</figcaption></figure>
+      <figure class="g7"><img loading="lazy" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop" alt="Restaurant dine-in seating" onerror="this.remove()"><figcaption>Dine-in</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#motif"/></svg>Customer Words</div>
+    <h2>What our guests say</h2>
+    <div class="reviews">
+      <article class="review">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <p>We stopped here on the way back from Itarsi and ended up ordering a second plate of Chicken Handi. The gravy was thick and the masala was just right. Rates are fair too.</p>
+        <b>Rohit Sahu</b><small>Tikrani Naka, Betul</small>
+      </article>
+      <article class="review">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <p>Mutton Bhuna on Sunday is our family plan now. Soft meat, no heavy oil. Half plate was enough for two of us.</p>
+        <b>Imran Khan</b><small>Ganj, Betul</small>
+      </article>
+      <article class="review">
+        <span class="stars" aria-label="5 stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span>
+        <p>I called ahead on WhatsApp and the Butter Chicken was packed and hot when I reached. Saved me waiting after school pickup.</p>
+        <b>Pooja Verma</b><small>Near Sanjivani School</small>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="prices">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#motif"/></svg>Price List</div>
+    <h2>Simple, clear prices</h2>
+    <p class="lead">Full plate and half plate rates in rupees. Prices may change with market rates, so please confirm when ordering.</p>
+    <div class="price-cols">
+      <div class="pl">
+        <h3>Chicken</h3>
+        <div class="row"><span>Chicken Curry</span><span>₹200 / ₹120</span></div>
+        <div class="row"><span>Chicken Korma</span><span>₹210 / ₹130</span></div>
+        <div class="row"><span>Chicken Handi</span><span>₹300 / ₹160</span></div>
+        <div class="row"><span>Chicken Lapeta</span><span>₹250 / ₹140</span></div>
+        <div class="row"><span>Chicken Masala</span><span>₹250 / ₹150</span></div>
+        <div class="row"><span>Chicken Bhuna</span><span>₹300 / ₹160</span></div>
+        <div class="row"><span>Chicken Kadahi</span><span>₹260 / ₹140</span></div>
+        <div class="row"><span>Chicken 2 Pyaza</span><span>₹250 / ₹150</span></div>
+        <div class="row"><span>Butter Chicken</span><span>₹400 / ₹220</span></div>
+        <div class="row"><span>Chicken Special</span><span>₹280 / ₹150</span></div>
+      </div>
+      <div class="pl">
+        <h3>Mutton</h3>
+        <div class="row"><span>Mutton Curry</span><span>₹340 / ₹180</span></div>
+        <div class="row"><span>Mutton Bhuna</span><span>₹410 / ₹200</span></div>
+        <div class="row"><span>Mutton Lapeta</span><span>₹380 / ₹200</span></div>
+        <div class="row"><span>Mutton Masala</span><span>₹380 / ₹210</span></div>
+        <div class="row"><span>Mutton Handi<small>Large sharing handi</small></span><span>₹1200+</span></div>
+        <div class="row"><span>Mutton Curry / Keema options</span><span>₹320 to ₹390</span></div>
+        <h3>Rice</h3>
+        <div class="row"><span>Jeera Rice</span><span>₹90 half / ₹180 full</span></div>
+        <div class="row"><span>Sada Rice</span><span>₹80 half / ₹160 full</span></div>
+        <div class="row"><span>Quarter Rice</span><span>₹50 quarter / ₹160 full</span></div>
+        <h3>Paneer</h3>
+        <div class="row"><span>Matar Paneer</span><span>₹250 / ₹180</span></div>
+        <div class="row"><span>Paneer Masala</span><span>₹270 / ₹180</span></div>
+      </div>
+    </div>
+    <p class="note">Curry, mutton and paneer prices are shown as full plate / half plate. Tandoori, chilli chicken, chicken 65, lollipop and fish roast rates are shared on call or WhatsApp.</p>
+    <div style="margin-top:28px"><a class="btn btn-gold" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20saw%20your%20price%20list.%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order from the price list</a></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#motif"/></svg>Visit Us</div>
+    <h2>Find us on Itarsi Road</h2>
+    <div class="contact-grid">
+      <div class="map">
+        <iframe title="YG King Restaurant location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Near%20Sanjivani%20School%2C%20Tikrani%20Naka%2C%20Itarsi%20Road%2C%20Betul%2C%20Madhya%20Pradesh&amp;output=embed"></iframe>
+      </div>
+      <div class="info">
+        <address><h3>Address</h3>YG King Restaurant<br>Near Sanjivani School, Tikrani Naka,<br>Itarsi Road, Betul (M.P.)</address>
+        <h3>Opening hours</h3>
+        <div class="hours">
+          <span>Monday to Sunday</span><span>11:00 AM to 11:00 PM</span>
+        </div>
+        <div class="methods">
+          <a class="m" href="tel:+919522786111"><svg><use href="#i-call"/></svg><span>95227 86111<small>Call (main)</small></span></a>
+          <a class="m" href="tel:+918251057867"><svg><use href="#i-call"/></svg><span>82510 57867<small>Call (second line)</small></span></a>
+          <a class="m" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20have%20a%20question%20about%20your%20restaurant." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span>WhatsApp<small>Chat and order</small></span></a>
+          <a class="m" href="mailto:vishalevane190@gmail.com?subject=Enquiry%20for%20YG%20King%20Restaurant"><svg><use href="#i-mail"/></svg><span>vishalevane190@gmail.com<small>Email</small></span></a>
+          <a class="m" href="https://www.google.com/maps/search/?api=1&amp;query=Near%20Sanjivani%20School%2C%20Tikrani%20Naka%2C%20Itarsi%20Road%2C%20Betul" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><span>Get directions<small>Open in Google Maps</small></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>YG KING Restaurant</h4>
+        <p>Fresh Chicken, Mutton &amp; Biryani, Full of Flavor.<br>Tikrani Naka, Itarsi Road, Betul (M.P.)</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hungry? Order now</h4>
+        <a class="btn btn-wa foot-wa" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20food%20right%20now." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Order on WhatsApp</a>
+      </div>
+    </div>
+    <div class="built">
+      <span>&copy; <span id="yr">2026</span> YG King Restaurant. All rights reserved.</span>
+      <span>built with ❤️ by 21.coders</span>
+    </div>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Quick contact">
+  <a class="btn btn-call" href="tel:+919522786111"><svg><use href="#i-call"/></svg>Call</a>
+  <a class="btn btn-wa" href="https://wa.me/919522786111?text=Hello%20YG%20King%2C%20I%20want%20to%20order%20food." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+</nav>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  var b = document.getElementById('burger'), l = document.getElementById('links');
+  b.addEventListener('click', function(){
+    var o = l.classList.toggle('open');
+    b.setAttribute('aria-expanded', o);
+  });
+  l.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){ l.classList.remove('open'); b.setAttribute('aria-expanded', false); }
+  });
+})();
+</script>
+</body>
+</html>
